@@ -9,6 +9,10 @@ main{
     flex-grow: 1;
 }
 
+.card-bkgrnd{
+    background-color: rgb(241, 241, 241);
+}
+
 .form-img {
   min-height: 60vh;
   background-image: url(https://images.unsplash.com/photo-1526392587392-d1627b6c134a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
@@ -16,11 +20,17 @@ main{
   background-size: cover;
 }
 
-hr{
+.vertical-line{
     width: 0px; 
     height: 14vh;
     border: 1px solid gray;
     display: inline-block;
+}
+
+.horizontal-line{
+    width: 50px;
+    border: 1px solid gray;
+
 }
 
 .txt-shadow{
@@ -33,6 +43,20 @@ hr{
 
 .box-shadow{
     box-shadow: 0 2px 2px rgb(46, 46, 46);
+}
+
+.bar-length{
+    width: 40px
+}
+
+.side-boxes-vh{
+    height: 160px;
+    padding-top: 15px;
+}
+
+.main-box-vh{
+    height: 200px;
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 767px) {
