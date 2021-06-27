@@ -61,11 +61,13 @@ main{
 .side-boxes-vh{
   height: 170px;
   padding-top: 15px;
+  font-size: smaller;
 }
 
 .main-box-vh{
   height: 210px;
   padding-top: 10px;
+  font-size: small;
 }
 
 .text-box{
@@ -79,4 +81,7 @@ main{
   .form-img{
     background-image: url(https://images.unsplash.com/photo-1600305666080-fc4fa95972d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
   }
+ .text-box{
+   font-size: small;
+ }
 }
